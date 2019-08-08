@@ -2,7 +2,7 @@
   <div>
     <section class="section">
       <div class="container">
-        <h1 cless="title">App</h1>
+        <h1 cless="title">App PHP</h1>
         <Navbar />
         <hr />
         <RouterView />
@@ -14,6 +14,7 @@
 
 <script>
 import 'bulma/css/bulma.min.css'
+import 'animate.css/animate.min.css'
 import Navbar from '@/components/Navbar'
 
 export default {
